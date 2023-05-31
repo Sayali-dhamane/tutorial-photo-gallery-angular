@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 3px;
+    justify-content: center;
+    img{
+        width: 110px;
+        margin: 7px;
+    }
+    button{
+        background-color: gray;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 9px;
+    font-weight: 600;
+    }
+}

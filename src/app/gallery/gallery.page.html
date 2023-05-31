@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Gallery</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="main">
+<div *ngFor="let data of content" >
+  <!-- <h1>{{data.title}}</h1> -->
+
+<img [src]="data.thumbnailUrl" routerLink="/fullscreen-view" [queryParams]="{id:data.id}">
+
+</div>
+<button (click)="addvalues()">show more</button>
+</div>
+
+
+</ion-content>
